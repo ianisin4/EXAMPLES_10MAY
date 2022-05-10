@@ -1,7 +1,8 @@
 ﻿// особое приветствие
+Console.WriteLine("Введите имя");
 String username = Console.ReadLine();
 
-if (username == "Маша")
+if (username.ToLower() == "маша")
 {
     Console.WriteLine("Ура, это же Маша!");
 }
